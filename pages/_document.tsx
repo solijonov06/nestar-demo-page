@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
+  console.log("-------Document Pages Router-------");
   return (
     <Html lang="en">
       <Head />
