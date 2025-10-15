@@ -1,4 +1,7 @@
-const community = () => {
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
+import { NextPage } from "next";
+
+const Community : NextPage = () => {
     console.log("community component --- page routing ---");
   return (
     <div>
@@ -8,4 +11,4 @@ const community = () => {
   );
 }
 
-export default community;
+export default withLayoutBasic(Community);
