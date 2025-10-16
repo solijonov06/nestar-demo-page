@@ -3,6 +3,7 @@ import {ThemeProvider, createTheme} from "@mui/material/styles"
 import { CssBaseline } from "@mui/material";
 import {light} from "../scss/MaterialTheme/index"
 import { useState } from "react";
+import "../scss/app.scss"
 
 export default function App({ Component, pageProps }: AppProps) {
   //@ts-ignore

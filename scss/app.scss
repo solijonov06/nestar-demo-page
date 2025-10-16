@@ -1,0 +1,17 @@
+/*imports*/
+@import "variables.scss";
+@import "reset.scss";
+
+
+/*Version: pc*/
+#pc-wrap{
+    width: 100%;
+    height: 100%;
+    .container{
+        position: relative;
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        background: rgb(47, 152, 160);
+    }
+}
