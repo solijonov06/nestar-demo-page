@@ -16,7 +16,12 @@ const withLayoutMain = (Component: any) => {
             <Stack id={"top"}>
                   <Top  />
             </Stack>
-            <Stack className={"header-main"}>
+            <Stack className={"header-main"}
+            style={{
+               backgroundImage: "url(/img/banner/header1.svg)",
+               backgroundSize: "cover",
+               boxShadow: "inset 10px 40px 150px 40px rgb(24 22 36)",
+            }}>
                <Stack className={"container"}>
                   <HeaderFilter />
                </Stack>
