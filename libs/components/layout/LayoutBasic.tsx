@@ -17,7 +17,7 @@ const withLayoutBasic = (Component: any) => {
             <Top />
           </Stack>
 
-          <Stack
+          <Stack 
             className={"header-basic"}
             style={{
                backgroundImage: "url(/img/banner/properties.png)",
