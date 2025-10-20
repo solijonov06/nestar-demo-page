@@ -7,7 +7,7 @@ const AgentsList: NextPage = () => {
 const device = useDeviceDetect();
 
 if(device === 'mobile'){
-return <Stack>AGENTS LIST mobile</Stack>
+return <Stack>AGENTS LIST  mobile</Stack>
 }else{   return (
       <div style={{ margin: "20px 0"}}>
         <Stack className="container">AGENTS LIST</Stack> 
